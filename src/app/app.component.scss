@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin: 5%;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+input[type=text]{
+    border: 1px solid black;
+    height: 29px;
+    padding: 5px;
+    border-radius: 5px;
+}
+select{
+    height: 29px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+button{
+    height: 29px;
+    width: 35px;
+    margin-left: 20px;
+    background-color:  rgb(43, 85, 201);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.title{
+    display: flex;
+    background-color: lightgray;
+    border: 1px solid gray;
+}
+.to-do-box{
+    width: 30%;
+    margin-top: 5%;
+    border: 1px solid blue;
+}
+.toDoContent, .inProgress, .done{
+    width: 90%;
+    border: 1px solid gray;
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+    .lvl{
+        p{
+            background-color: blue;
+            margin-top: 5px;
+            width: 20%;
+            color: white;
+            text-align: center;
+        }
+    }
+    .buttons{
+        margin-top: 5px;
+    }
+}
